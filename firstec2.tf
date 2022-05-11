@@ -1,11 +1,10 @@
 provider "aws" {
   region = "us-west-2"
-  access_key = "AKIAWX6BLQSFOOQRWUGD"
-  secret_key = "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"
-}
+  access_key = ""
+  secret_key = ""
 
 resource "aws_instance" "myFirstinstance1" {
- ami = "ami-0ca285d4c2cda3300"
+ ami = ""
  key_name = "terraform"
  instance_type = "t2.micro"
  security_groups = ["security_jenkins_port1"]
